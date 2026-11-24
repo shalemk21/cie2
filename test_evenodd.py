@@ -1,14 +1,15 @@
+
 from even_odd import check_even_odd
 
-def check_even_odd_test():
+def test_check_even_odd_even():
     result=check_even_odd(2)
-    excepted=f"2 is Even"
+    expected=f"2 is Even"
 
-    assert result==excepted
+    assert result==expected
 
 
-def check_even_odd_test_odd():
+def test_check_even_odd_odd():
     result=check_even_odd(3)
-    excepted=f"3 is Odd"
+    expected=f"3 is Odd"
 
-    assert result==excepted
+    assert result==expected
