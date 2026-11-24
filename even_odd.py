@@ -8,5 +8,5 @@ def check_even_odd(num):
 
 if __name__=="__main__":
     print("Enter the number: ")
-    num=sys.argv[1]
+    num=int(sys.argv[1])
     print(check_even_odd(num))
